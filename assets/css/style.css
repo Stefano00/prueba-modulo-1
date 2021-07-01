@@ -3,24 +3,25 @@ html {
 }
 
 body{
-    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+
 }
 
-/* Diferente tipografia para títulos */
-.titulo{
-    font-family: 'Reggae One', cursive;
+.navbar-color{
+    background-color: #2d9da6;
 }
+
+.titulo{
+    font-family: 'Roboto', sans-serif;}
 
 .logo{
     width: 2rem;
 }
 
-/* Card */
 .tarjeta{
     width: 16rem;
 }
 
-/* Formularios */
 .contenedor-formulario{
     height:30rem;
 }
@@ -28,12 +29,15 @@ body{
     max-width:40rem;
 }
 
-/* Footer */
 footer{
-    height:15rem;
+    font-weight: 500;
+    background-color: #17a3b8;
 }
 
-footer h2{
-    font-size:2.5rem;
-    font-weight: bold;
+.white{
+    color: white;
+}
+
+.center{
+    text-align: center;
 }

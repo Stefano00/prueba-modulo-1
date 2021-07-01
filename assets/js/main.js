@@ -1,9 +1,3 @@
-// Esta función sirve para opacar el backgrond del navbar
-  var lastScrollTop = 0;
-$(window).scroll(function(event){
-   var st = $(this).scrollTop();
-       $("#navbar").removeClass( "bg-transparent" ).addClass( "bg-primary" );
-});
 
 // Esta función sirve para opacar el background del menú desplegable al apretar el botón hamburguesa
 $("#btn-nav").click(function(){
